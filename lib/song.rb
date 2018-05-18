@@ -13,6 +13,7 @@ artist = Artist.new(file_name.split(" - ")[0])
 song = Song.new(file_name.split(" - ")[1])
 song.artist = artist
 song
+binding.pry
 end
 
 def artist_name=(name)
